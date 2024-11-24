@@ -1,0 +1,166 @@
+repo_url: https://github.com/Requisitos-de-Software/2024.1-Firefox/
+repo_name: 2024.1-Firefox
+
+site_name: Firefox
+site_url: https://requisitos-de-software.github.io/2024.1-Firefox/
+site_author: Grupo 06
+site_description: Site destinado à apresentação do projeto de requisitos de software do Firefox
+
+nav: 
+  - Início: index.md
+  - Atas: 
+    - Reunião 27/03: atas/ata_27_03.md
+    - Reunião 08/04: atas/ata_08_04.md
+    - Reunião 15/04: atas/ata_15_04.md
+    - Reunião 06/05: atas/ata_06_05.md
+    - Reunião 22/05: atas/ata_22_05.md
+    - Reunião 29/05: atas/ata_29_05.md
+    - Reunião 05/06: atas/ata_05_06.md
+    - Reunião 10/06: atas/ata_10_06.md
+    - Reunião 13/06: atas/ata_13_06.md
+    - Reunião 19/06: atas/ata_19_06.md
+  - Apresentações:
+    - Apresentação 1: apresentacoes/apresentacao_1.md
+    - Apresentação 2: apresentacoes/apresentacao_2.md
+    - Apresentação 3: apresentacoes/apresentacao_3.md
+    - Apresentação 4: apresentacoes/apresentacao_4.md
+    - Apresentação 5.1: apresentacoes/apresentacao_5.1.md
+    - Apresentação 5.2: apresentacoes/apresentacao_5.2.md
+    - Apresentação 6: apresentacoes/apresentacao_6.md
+  - Planejamento:
+    - Heatmap: planejamento/heatmap.md
+    - Cronograma: planejamento/cronograma.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Contribuição: planejamento/contribuicao.md
+    - Apps Avaliados: planejamento/apps_avaliados.md
+    - App Escolhido: planejamento/app_escolhido.md
+    - Termo de Uso: planejamento/termo_de_uso.md
+    - Licença: planejamento/licenca.md
+  - Pré-Rastreabilidade:
+    - Rich Picture: pre-rastreabilidade/rich-picture.md
+  - Elicitação:
+    - Definição do Perfil de Usuário:
+      - Análise de Documentos: elicitacao/perfil_usuario/analise_documento.md
+      - Perfil de Usuário: elicitacao/perfil_usuario/perfil_de_usuario.md
+      - Personas: elicitacao/personas/personas.md
+    - Elicitação de Requisitos:
+      - Técnicas:
+        - Brainstorming: elicitacao/tecnicas/brainstorming.md
+        - Entrevista: elicitacao/tecnicas/entrevista.md
+        - Observação: elicitacao/tecnicas/observacao.md
+        - Questionário: elicitacao/tecnicas/questionario.md
+      - Requisitos Elicitados: elicitacao/tecnicas/requisitos_elicitados.md
+      - Especificação de Requisitos: elicitacao/tecnicas/espec_requisitos.md
+    - Priorização de Requisitos: 
+      - Técnicas: elicitacao/priorizacao/tecnicas_de_priorizacao.md
+      - Requisitos Priorizados: elicitacao/priorizacao/requisitos_priorizados.md
+  - Modelagem:
+    - Léxicos: modelagem/lexicos/lexicos.md
+    - Cenários: modelagem/cenarios.md
+    - Casos de Uso: modelagem/casos_de_uso/casos_de_uso.md
+    - Validação dos Casos de Uso: modelagem/casos_de_uso/valid_casos.md
+    - Especificação Suplementar: modelagem/especificacao-suplementar.md
+  - Modelagem Ágil:
+    - Backlog: modelagem_agil/backlog.md
+    - Histórias de usuário: modelagem_agil/historias_de_usuario/historias_de_usuario.md
+    - NFR Framework: modelagem_agil/NFR Framework.md
+  - Pós-Rastreabilidade:
+    - Baseline: pos-rastreabilidade/baseline.md
+    - Backward From: pos-rastreabilidade/backwardfrom.md
+    - Forward From: pos-rastreabilidade/forwardfrom.md
+    - Elos: pos-rastreabilidade/elos.md
+  - V&V:
+    - Verificação:
+      - Grupo 6:
+        - Pré-Rastreabilidade: verificacao/grupo_6/entrega_1.md
+        - Elicitação: verificacao/grupo_6/entrega_2.md
+        - Modelagem: verificacao/grupo_6/entrega_3.md
+        - Modelagem Ágil: verificacao/grupo_6/entrega_4.md
+        - Pós-Rastreabilidade: verificacao/grupo_6/entrega_6.md
+      - Grupo 7:
+        - Pré-Rastreabilidade: verificacao/grupo_7/entrega_1.md
+        - Elicitação: verificacao/grupo_7/entrega_2.md
+        - Modelagem: verificacao/grupo_7/entrega_3.md
+        - Modelagem Ágil: verificacao/grupo_7/entrega_4.md
+    - Validação: 
+      - Validação do Protótipo: validacao/validacao.md
+      - Comprovação Informal: validacao/comprov_informal.md
+  - Entrega Final:
+    - Aplicativo Selecionado: entrega_final/app_selecionado.md
+    - Planejamento dos Recursos e das Entregas: entrega_final/planejamento.md
+    - Execução do Projeto: entrega_final/execucao.md
+    - Técnicas Utilizadas: entrega_final/tecnicas.md
+    - Ferramentas Utilizadas: entrega_final/ferramentas.md
+    - Artefatos Sintetizados: entrega_final/artefatos.md
+    - Verificação e Validação dos Artefatos: entrega_final/v&v.md
+    - Apresentações: entrega_final/apresentacoes.md
+    - Resultados Alcançados: entrega_final/resultados.md
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - content.tabs.link
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Mudar para o modo escuro
+      primary: orange
+      accent: orange
+
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para o modo claro
+      primary: orange
+      accent: orange
+  language: pt-BR
+  logo: images/firefox.png
+  favicon: images/firefox.png
+  extra_css: [stylesheets/extra.css]
+  plugins:
+    - search
+    - include-markdown
+    - mkdocs-material-tabs
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+
+        
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+
+plugins:
+  - search
+  - include-markdown
